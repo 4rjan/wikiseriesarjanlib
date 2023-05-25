@@ -51,6 +51,7 @@ LOGGER_BASENAME = '''wikiseriesarjanlib'''
 LOGGER = logging.getLogger(LOGGER_BASENAME)
 LOGGER.addHandler(logging.NullHandler())
 
+
 def search_series(name):
     api_url = 'https://en.wikipedia.org/w/api.php'
     limit = 10
